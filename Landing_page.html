@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        .navbar{
+            
+            width: 85%;
+     max-width: 1100px;
+    margin: 25px auto;
+    padding: 8px 20px 8px 40px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: rgb(239, 254, 254);
+    border-radius: 16px;
+    backdrop-filter: blur(12px);
+        }
+        .navLinks{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 32px;
+        }
+        .navLinks a{
+            text-decoration: none;
+        }
+        .navLinks:hover{
+            color:solid brown;
+            transform: translateY(-2px);
+        }
+        .btnlogin{
+            display: flex;
+            justify-content: end;
+            padding: 12px;
+            /* background-color: whitesmoke; */
+            color: black;
+            box-shadow: 0%;
+            border: 0px;
+            border-bottom: 3px solid rgb(2, 54, 54);
+            border-top:3px solid rgb(2, 54, 54) ;
+            border-left: 3px solid rgb(2, 54, 54);
+            border-right: 3px solid rgb(2, 54, 54);
+
+        }
+        .btnlogin:hover{
+            background-color: rgb(3, 66, 66);
+            cursor: pointer;
+            color: white;
+        }
+
+        .contnt{
+            flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 90px 0 90px;
+        }
+        
+        .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      max-width: 680px;
+    }
+    .note{
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      color: rgb(168, 158, 158);
+      margin-bottom: 22px;
+    }
+    .contnt h1 {
+      font-size: clamp(2.4rem, 6vw, 3.6rem);
+      font-weight: 500;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 26px;
+    }
+    .brand-icon{
+    font-size: 32px;
+    border: 3px black;
+    font-weight: 100%;
+    }
+    .brand-name{
+        font-size: 28px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(183, 131, 231);
+    }
+    .root{
+        flex: 1;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+
+    }
+    .root-content{
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .root-content p{
+        margin: 5px 0 0;
+    }
+    .subscribe-btn:hover{
+        cursor: pointer;
+        background-color: orangered;
+        color: white;
+    }
+    
+    </style>
+</head>
+<body style="background-color: beige;">
+    <header class="navbar">
+<div class="logo">
+    <span class="brand-icon"><i class="fa-brands fa-neos"></i></span>
+            <span class="brand-name">NEXORA</span>
+        </div>
+
+        <nav class="navLinks">
+            <a href="#">Home</a> 
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Prising</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <button class="btnlogin">
+            Get Started
+        </button>
+</div>
+    </header>
+    <main class="contnt">
+    <div class="container">
+      <div class="content" style="margin: 0 auto;">
+
+        <span class="note" style="font-size: 20px;">Hello Everyone!</span>
+
+        <h1>Make landing page<br />fast and easily.</h1>
+
+        <p class="lead">
+          By Using HTML & CSS, And by taking an admission in <strong>Aptech Gulshan II.
+          </strong>
+        </p>
+        <div >
+          <input style="padding: 5px;" type="email" placeholder="Enter your email" aria-label="Email address" required /> 
+           <button class="Subscribe-btn" style="background-color: red; color: white; padding: 6px; box-shadow: 0%;border: 0px;"> Subscribe </button>
+        </div>
+       <i> <p class="trust">Made by Areeba Naveed</p></i>
+      </div>
+      <footer style="border-top: 2px solid black;">
+        <div class="root">
+            <span> <i class="fa-solid fa-pen-to-square" style="color: rgb(182, 67, 182);"></i></span> </div>
+           <div class="root-content"> 
+             <h3>Easy to Use</h3>
+            <p>Editing and customizing Essential Landing is easy and fast.</p>
+           </div>
+        
+        
+        
+      </footer>
+  <script src="https://kit.fontawesome.com/14261929e1.js" crossorigin="anonymous"></script>
+</body>
+</html>,
